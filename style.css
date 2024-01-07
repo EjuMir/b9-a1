@@ -82,3 +82,68 @@ body{
 .new-year-content{
     margin-bottom:20px;
 }
+
+/* 3rd section */
+
+.bg-2{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.6)), url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    justify-content: center;
+    width: 920px;
+    height: 400px;
+    margin:80px auto 60px auto;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    background-position: center;
+    
+}
+.party{
+    max-width: 500px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.year{
+    height:300px ;
+    width: 200px ;
+    align-items: center;
+    margin-right: 20px;
+    margin-top:50px;
+}
+.party-des{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 65px;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+}
+#par-des{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:19px;
+    font-weight:lighter;
+    margin-top: 0px;
+
+}
+.party-button{
+    margin:15px 0px 0px 30px;
+    padding:10px 10px;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+    background: none; 
+    border: 1px solid;
+    color: white;
+    transition: 0.5s;
+}
+.party-button:hover{
+    background-color: white;
+    color:black;
+    cursor:pointer;
+}
+
+/* 4th section */
