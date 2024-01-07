@@ -85,7 +85,7 @@ body{
 
 /* 3rd section */
 
-.bg-2{
+.bg-3{
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.6)), url('resources/Vectorrr.png');
     background-repeat: no-repeat;
     justify-content: center;
@@ -147,3 +147,42 @@ body{
 }
 
 /* 4th section */
+.bg-4{
+    background-image: linear-gradient(180deg,pink,white);
+    width: 920px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 80px;
+}
+.time{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    top:45%;
+   transform:translate(-50%,-50%); 
+   padding:20px;
+    
+}
+.red{
+    color:red;
+    font-weight: 700;
+}
+.button4{
+    margin:15px 0px 0px 30px;
+    padding:10px 20px;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+    background: red; 
+    border: 1px solid;
+    color: white;
+    transition: 0.5s;
+    
+}
+.button4:hover{
+    background-color: white;
+    color:red;
+    cursor:pointer;
+}
