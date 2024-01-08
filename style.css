@@ -210,37 +210,88 @@ body {
 }
 
 /* 5th section */
-.section-5{
+.section-5 {
     display: flex;
     justify-content: space-between;
-    width:920px;
+    width: 920px;
     margin: auto;
-    margin-bottom:80px;
-    margin-top:30px;
+    margin-bottom: 80px;
+    margin-top: 30px;
 }
-.offer-sec5{
+
+.offer-sec5 {
     max-width: 300px;
     margin-right: 25px;
     margin-top: 40px;
 }
-.year-sect5{
-    
+
+.year-sect5 {
+
     margin-left: 50px;
     margin-top: 40px;
 }
-.img-sect5{
-    border-color:red;
+
+.img-sect5 {
+    border-color: red;
     border-style: solid;
     border-radius: 300px;
-    padding:20px;
+    padding: 20px;
     border-width: 10px;
-    width:250px;
-    height:250px;
+    width: 250px;
+    height: 250px;
     margin-top: 40px;
     margin-left: 10px;
 }
-.img-alt-sect5{
-    width:250px;
-    height:250px;
+
+.img-alt-sect5 {
+    width: 250px;
+    height: 250px;
 }
+
 /* 6th Section */
+
+.section-6 {
+    text-align: center;
+    max-width: 920px;
+    margin: auto;
+    margin-top:30px;
+}
+
+.bg-6 {
+    background-image:url('resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    height:400px;
+    margin: 40px 0px 0px 500px ;
+    position: relative;
+}
+.discount-6{
+    position: absolute;
+    right:65%;
+    top:13%;
+}
+.bg-blend-6{
+    position: relative;
+}
+.box-6{
+    background-image: url('resources/Group\ 75.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    right:59%;
+    bottom:30%;
+    background-blend-mode: color;
+}
+.rectangle{
+    background-image: url('resources/Rectangle\ 2.png');
+    margin-top:0px;
+    margin-bottom:50px;
+    width:920px;
+    height: 200px;
+    
+}
+
+/* 7th section*/
+
