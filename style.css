@@ -359,3 +359,104 @@ body {
     opacity:0.3;
     cursor: pointer;
 }
+
+/* footer */
+
+.footer{
+    background-color: rgb(6, 25, 36);
+    height: 500px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+}
+.address{
+    width: 500px;
+    margin:50px 0px 0px 70px; 
+    text-align: left;
+}
+.color-address1{
+    color:white;
+    padding-bottom: 25px;
+    font-size: 23px;
+    
+}
+.color-address::before{
+    content: "";
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background: url('resources/Call.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    float:left;
+    
+}
+.color-address{
+    color:white;
+    font-size: 20px;
+}
+.contact9{
+    margin:40px 90px 0px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.color-address2::before{
+    content: "";
+    display:inline;
+    width:30px;
+    height:30px;
+    background: url('resources/Website.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    float:left;
+    
+}
+.color-address2{
+    color:white;
+    font-size: 20px;
+    margin-left:5px;
+}
+.social-sites{
+    position: absolute;
+    left:47%;
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px; 
+    margin-top: 50px; 
+}
+.hr-line{
+    opacity: 0.4;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    text-align: center;
+    align-items: center;
+}
+.copyright{
+    color:white;
+    margin-left:50px;
+    margin-top:25px;
+}
+.btn-foot{
+    font-size:20px;
+    margin-right:80px;
+    border:dashed;
+    background-color: transparent;
+    color:white;
+    padding:20px 40px;
+    transition:0.5s;
+    border-width:0.5px;
+}
+.btn-foot:hover{
+    border-style:solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding:40px 20px;
+}
