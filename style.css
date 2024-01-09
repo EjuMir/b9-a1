@@ -222,13 +222,14 @@ body {
 .offer-sec5 {
     max-width: 300px;
     margin-right: 25px;
-    margin-top: 40px;
+    margin-top: 45px;
+    flex: 600px;
 }
 
 .year-sect5 {
-
     margin-left: 50px;
     margin-top: 40px;
+    flex: 600px;
 }
 
 .img-sect5 {
@@ -255,6 +256,7 @@ body {
     max-width: 920px;
     margin: auto;
     margin-bottom:60px;
+    margin-top:70px;
 }
 
 .bg-6 {
@@ -347,8 +349,9 @@ body {
     font-size: 15px;
     border-top-left-radius:20px ;
     border-bottom-left-radius:20px ;
-    padding:17px;
+    padding:16px;
     border:none;
+    outline:none;
 }
 .button{
     background-color:red;
@@ -389,9 +392,8 @@ body {
     font-size: 23px;
     
 }
-.color-address::before{
-    content: "";
-    display:inline-block;
+.color-address2::before{
+    content:" ";
     width:30px;
     height:30px;
     background: url('resources/Call.png');
@@ -400,7 +402,7 @@ body {
     float:left;
     
 }
-.color-address{
+.color-address2{
     color:white;
     font-size: 20px;
 }
@@ -411,9 +413,8 @@ body {
     justify-content: center;
     
 }
-.color-address2::before{
-    content: "";
-    display:inline;
+.color-address3::before{
+    content:" ";
     width:30px;
     height:30px;
     background: url('resources/Website.png');
@@ -422,20 +423,21 @@ body {
     float:left;
     
 }
-.color-address2{
+.color-address3{
     color:white;
     font-size: 20px;
-    margin-left:5px;
+    margin-left:15px;
 }
 .social-sites{
     position: absolute;
-    left:47%;
+    left:46%;
     display: grid;
     grid-template-columns: 90px 90px 90px 90px; 
     margin-top: 50px; 
+    flex:50px;
 }
 .hr-line{
-    opacity: 0.4;
+    opacity: 0.2;
 }
 .footer-end{
     display: flex;
