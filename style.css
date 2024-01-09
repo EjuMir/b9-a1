@@ -242,13 +242,22 @@ body {
     height: 250px;
     margin-top: 40px;
     margin-left: 10px;
+    transition: 0.8s;
 }
-
+.img-sect5:hover{
+    border-style:solid;
+    width: 200px;
+    height: 200px;
+}
 .img-alt-sect5 {
     width: 250px;
     height: 250px;
+    transition: 0.8s;
 }
-
+.img-alt-sect5:hover{
+    width: 200px;
+    height: 200px;
+}
 /* 6th Section */
 
 .section-6 {
