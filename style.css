@@ -284,16 +284,17 @@ body {
     position: relative;
 }
 .box-6{
-    background-image: url('resources/Group\ 75.png');
+    background-image: url('resources/Group\ 75_prev_ui.png');
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
     background-size: cover;
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 300px;
     right:59%;
-    bottom:30%;
+    bottom:22%;
     background-blend-mode: color;
+
 }
 .rectangle{
     background-image: url('resources/Rectangle\ 2.png');
